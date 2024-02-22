@@ -1,0 +1,25 @@
+1. buat project flutter
+2. install get
+3. rubah main.dart :
+
+import 'package:flutter/material.dart';
+import 'package:get/get.dart';
+import 'app/routes/app_pages.dart';
+
+void main() {
+  runApp(
+    GetMaterialApp(
+      title: "LATIHAN GETX",
+      debugShowCheckedModeBanner: false,
+      initialRoute: AppPages.INITIAL,
+      getPages: AppPages.routes,
+    ),
+  );
+}
+
+4. get create page:home
+
+// Untuk Get Data
+5. siapkan response datanya
+6. copas semua response datanya ke : https://app.quicktype.io
+7. buatkan method di controller
